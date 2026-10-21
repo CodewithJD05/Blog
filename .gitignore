@@ -1,4 +1,12 @@
 .env
 __pycache__
-database.py
-models.py
+
+# Ignore environment variables
+.env
+
+# Ignore local SQLite databases
+*.db
+
+# Ignore Python cache
+__pycache__/
+*.pyc
